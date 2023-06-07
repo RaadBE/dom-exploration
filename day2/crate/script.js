@@ -1,36 +1,3 @@
-// const people = document.createElement("section");
-// let people_p = document.createElement("p");
-// const art = document.querySelector('article');
-// art.append(people);
-// people.append(people_p);
-// people_p.append(coll);
-
-// let myclass = [{
-//     name:'Raad',
-//     about:'super nice person'
-
-// },
-// {
-//     name:'Loui',
-//     about:'super nice person',
-// },
-// {
-//     name:'Loui',
-//     about:'super nice person',
-// },
-// {
-//     name:'Loui',
-//     about:'super nice person'
-// },
-// {
-//     name:'Loui',
-//     about:'super nice person',
-// },
-// {
-//     name:'Loui',
-//     about:'super nice person'
-// }
-// ]
 
 var myclass = [
     "William",
