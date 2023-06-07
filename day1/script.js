@@ -5,3 +5,4 @@ const body = document.getElementsByTagName('body')[0];
 for (const child of body.children) {
   console.log(child.tagName);
 }
+
