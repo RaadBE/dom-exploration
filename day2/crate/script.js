@@ -51,7 +51,7 @@ for (var i = 0; i < myclass.length; i++) {
     people.append(people_p);
     people.append(myclass[i]);
     let randomColor = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
-        let textColor = getTextColor(randomColor);
+    let textColor = getTextColor(randomColor);
     people.setAttribute('style', `background-color: ${randomColor}; color: ${textColor}; order: ${randomNumber}`);
     art.setAttribute('style','display:flex; flex-direction:column');
 
