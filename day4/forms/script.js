@@ -71,11 +71,14 @@ let selecting = document.querySelector('select')
 addEventListener("change", (event) => {
 	if (selecting.value == 'dark') {
 	let body = document.querySelector('body');
-	test = body.setAttribute("style", "background-color:black; color: white;");
+	 body.setAttribute("style", "background-color:black; color: white;");
 
 	}else
 	{
-		
+			let body = document.querySelector('body');
+
+	 body.setAttribute("style", "background-color:white;");
+
 	}
 
 });
