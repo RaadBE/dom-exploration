@@ -102,7 +102,7 @@ const collection = [
 ];
 
 
-
+// let sectP = document.querySelector('section div p:last-child')
 let header = document.querySelector('header')
 let left = document.createElement('div');
 let rightText = document.createElement('h1');
@@ -136,6 +136,9 @@ let nameMove = document.createElement('h1');
 let namedirect = document.createElement('p');
 let movieDis = document.createElement('p');
 let icons = document.createElement('div');
+let line = document.createElement('hr');
+movieDis.classList.add('moveieP');
+
 sect.append(card)
 card.append(moveImg)
 card.append(moveiGen)
@@ -143,6 +146,7 @@ card.append(nameMove)
 card.append(namedirect)
 card.append(movieDis)
 card.append(icons)
+card.append(line)
 
 let movieImgg = collection[i].poster;
 const moveGene = collection[i].genres;
@@ -158,5 +162,19 @@ movieDis.insertAdjacentHTML( 'beforeend', movieDic );
 movieDis.insertAdjacentHTML( 'beforeend', movieTitle );
 namedirect.insertAdjacentHTML( 'beforeend', Direct );
 
-  
 }
+
+let sectiona = document.querySelectorAll('.moveieP');
+// let div = section.querySelector('div');
+// let paragraphs = div.querySelectorAll('p');
+// let lastP = paragraphs[paragraphs.length - 1];
+// let ind = 10;
+
+// Now you can work with the selected last <p> element
+
+for (var i = 0; i < collection.length; i++) {
+  if (sectiona.lenght != 40000 ) {
+   sectiona.document.style = 'style,color:blue';
+}
+
+};
