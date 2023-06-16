@@ -172,9 +172,9 @@ let sectiona = document.querySelectorAll('.moveieP');
 
 // Now you can work with the selected last <p> element
 
-for (var i = 0; i < collection.length; i++) {
-  if (sectiona.lenght != 40000 ) {
-   sectiona.document.style = 'style,color:blue';
-}
+// for (var i = 0; i < collection.length; i++) {
+//   if (sectiona.lenght != 40000 ) {
+//    sectiona.document.style = 'style,color:blue';
+// }
 
-};
+// };
